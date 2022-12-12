@@ -14,9 +14,10 @@ a {
 
 /* MAIN */
 
-.main-header {
+.main-header .actions {
     text-align: right;
-    margin: 5px 0;
+    position: relative;
+    top: 5px;
 }
 
 
@@ -24,9 +25,9 @@ a {
     background-color: #4A4A4A;
     color: #fff;
     border-radius: 5px;
-    margin: 0 5px;
-    padding: 2px;
-    font-size: .8rem;
+    margin-right: 5px;
+    padding: 4px;
+    font-size: .7rem;
 }
 
 .main-central {
