@@ -43,7 +43,7 @@ a {
 
 .col {
     position: relative;
-    background-image: url(https://picsum.photos/id/9/185/100);
+    background-image: url(https://picsum.photos/185/100?random);
     width: 185px;
     height: 100px;
     background-size: cover;
