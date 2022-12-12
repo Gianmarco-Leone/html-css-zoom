@@ -1,35 +1,64 @@
 /* SORT-UP */
 
+/* #4A4A4A COLORI TASTI IN ALTO A DX */
+
 /* GENERICS */
 
 body {
     background-color: #111;
 }
 
-/* MAIN */
-
 main {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
 }
 
+a {
+    text-decoration: none;
+}
 
-.actions {
+/* MAIN */
+
+.main-header {
     text-align: right;
-    margin-bottom: 30px;
+    margin: 5px 0 20px;
+}
+
+.main-header a {
+    background-color: #4A4A4A;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 2px;
+    font-size: .8rem;
 }
 
 .row {
+    width: 90vw;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     gap: 5px;
-    margin-bottom: 10px;
 }
 
 .col {
-    /* debug */
+    position: relative;
     background-color: red;
     width: calc(100% / 7);
-    height: 100px;
+}
+
+.col > img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.col .col-text {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: grayscale(.8);
+    font-size: 14px;
+    padding: 3px;
 }
 
 /* FOOTER */
@@ -40,6 +69,6 @@ footer {
     align-items: center;
 
     /* debug */
-    height: 100px;
-    background-color: #333;
+    height: 80px;
+    background-color: #222222;
 }
