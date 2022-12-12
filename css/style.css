@@ -1,0 +1,45 @@
+/* SORT-UP */
+
+/* GENERICS */
+
+body {
+    background-color: #111;
+}
+
+/* MAIN */
+
+main {
+    height: calc(100vh - 100px);
+}
+
+
+.actions {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.col {
+    /* debug */
+    background-color: red;
+    width: calc(100% / 7);
+    height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    height: 100px;
+    background-color: #333;
+}
