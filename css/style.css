@@ -16,7 +16,7 @@ a {
 
 .main-header {
     text-align: right;
-    margin: 5px 0 20px;
+    margin: 5px 0;
 }
 
 
@@ -29,22 +29,24 @@ a {
     font-size: .8rem;
 }
 
+.main-central {
+    margin-top: 40px;
+}
+
 .row {
     width: 90vw;
     margin: 10px auto;
     display: flex;
-    justify-content: center;
-    gap: 5px;
+    justify-content: space-between;
 }
 
 .col {
     position: relative;
-    background-color: red;
-    width: calc(100% / 7);
-}
-
-.col > img {
-    object-fit: cover;
+    background-image: url(https://picsum.photos/id/9/185/100);
+    width: 185px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .col .col-text {
