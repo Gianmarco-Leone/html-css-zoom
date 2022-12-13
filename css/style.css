@@ -4,47 +4,49 @@ body {
     background-color: #111;
 }
 
-main {
-    height: 90vh;
-}
-
 a {
     text-decoration: none;
 }
 
-/* MAIN */
+/* HEADER */
 
-.main-header .actions {
+header {
+    height: 40px;
+}
+
+header .actions {
     text-align: right;
     position: relative;
     top: 5px;
 }
 
 
-.main-header a {
+header button {
     background-color: #4A4A4A;
     color: #fff;
+    border: none;
     border-radius: 5px;
     margin-right: 5px;
     padding: 4px;
     font-size: .7rem;
 }
 
-.main-central {
-    margin-top: 40px;
+/* MAIN */
+
+.col-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+
+    height: calc(100vh - 110px);
 }
 
-.row {
-    width: 90vw;
-    margin: 10px auto;
-    display: flex;
-    justify-content: space-between;
-}
 
 .col {
     position: relative;
-    background-image: url(https://picsum.photos/185/100?random);
-    width: 185px;
+    background-image: url(https://picsum.photos/150/100?random);
+    width: 150px;
     height: 100px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -66,7 +68,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 70px;
     background-color: #222222;
 }
 
@@ -83,14 +85,14 @@ footer {
 }
 
 .footer.right {
-    height: 10vh;
+    height: 70px;
     background-color: #4A4A4A;
 }
 
 .footer.right a {
     color: red;
     padding: 0 10px;
-    line-height: 10vh;
+    line-height: 70px;
 }
 
 .arrow {
